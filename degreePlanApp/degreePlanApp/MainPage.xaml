@@ -4,11 +4,10 @@
              xmlns:local="clr-namespace:degreePlanApp"
              x:Class="degreePlanApp.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="AddTermButton"
+                     Text="+"
+                     Activated="AddTermButton_Activated" />
+    </ContentPage.ToolbarItems>
 
 </ContentPage>

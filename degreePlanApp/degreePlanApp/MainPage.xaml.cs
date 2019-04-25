@@ -13,5 +13,10 @@ namespace degreePlanApp
         {
             InitializeComponent();
         }
+
+        private void AddTermButton_Activated(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddTermPage());
+        }
     }
 }

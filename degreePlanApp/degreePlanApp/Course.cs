@@ -10,9 +10,13 @@ namespace degreePlanApp
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string Title { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public enum Status { Completed, InProgress, Dropped, Planned }
-        public string Instructor { get; set; }
+        public int TermID { get; set; }
+        public string StartDate { get; set; }
+        public string EndDate { get; set; }
+        public string Status { get; set; }
+        public string InstructorName { get; set; }
+        public string InstructorEmail { get; set; }
+        public string InstructorPhone { get; set; }
+        public int Notifications { get; set; }
     }
 }

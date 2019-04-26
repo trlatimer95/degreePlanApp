@@ -6,8 +6,28 @@
 
     <ContentPage.ToolbarItems>
         <ToolbarItem x:Name="AddTermButton"
-                     Text="+"
+                     Text="Add"
                      Activated="AddTermButton_Activated" />
     </ContentPage.ToolbarItems>
+    <StackLayout >
+        <ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="Term Title"/>
+                            <ListView>
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextCell></TextCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 
 </ContentPage>

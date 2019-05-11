@@ -5,26 +5,20 @@
              x:Class="degreePlanApp.MainPage">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem x:Name="AddTermButton"
-                     Text="Add"
+        <ToolbarItem Text="Add"
                      Activated="AddTermButton_Activated" />
+        <ToolbarItem Text="Edit" 
+                     Activated="ToolbarItem_Activated"/>
+        <ToolbarItem Text="Delete "
+                     Activated="ToolbarItem_Activated_1"/>
     </ContentPage.ToolbarItems>
     <StackLayout >
-        <ListView>
+        <ListView x:Name="termListView">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
-                        <StackLayout>
-                            <Label Text="Term Title"/>
-                            <ListView>
-                                <ListView.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextCell></TextCell>
-                                    </DataTemplate>
-                                </ListView.ItemTemplate>
-                            </ListView>
-                        </StackLayout>
-                    </ViewCell>
+                    <TextCell Text="{Binding Name}"
+                              Detail="{Binding FullDate}">
+                    </TextCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

@@ -9,8 +9,7 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Add Term" />
-            <Entry x:Name="Title"
+            <Entry x:Name="name"
                    Placeholder="Enter term title..." />
             <DatePicker x:Name="start" />
             <DatePicker x:Name="end" />

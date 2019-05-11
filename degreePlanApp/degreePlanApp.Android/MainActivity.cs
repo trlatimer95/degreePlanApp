@@ -1,12 +1,13 @@
 ﻿using System;
-
+using System.IO;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using System.IO;
+using Xamarin;
+using Xamarin.Forms;
 
 namespace degreePlanApp.Droid
 {

@@ -7,7 +7,7 @@ namespace degreePlanApp
 {
     public partial class App : Application
     {
-        public string DB_PATH = string.Empty;
+        public static string DB_PATH = string.Empty;
 
         public App()
         {

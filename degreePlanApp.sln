@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degreePlanApp.Android", "de
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degreePlanApp.UWP", "degreePlanApp\degreePlanApp.UWP\degreePlanApp.UWP.csproj", "{7BA7837B-5B21-41F0-AAB8-321BC6FE8E57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "degreePlanApp", "degreePlanApp\degreePlanApp\degreePlanApp.csproj", "{F618692F-E0B0-48E3-811C-69BB9DA4AF36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "degreePlanApp", "degreePlanApp\degreePlanApp\degreePlanApp.csproj", "{F618692F-E0B0-48E3-811C-69BB9DA4AF36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
